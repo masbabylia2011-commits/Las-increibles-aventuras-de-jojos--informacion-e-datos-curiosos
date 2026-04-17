@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoJo's Bizarre Adventure - Historia Completa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER Y NAVEGACIÓN -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">JOJO'S</span>
+                <span class="logo-subtitle">Bizarre Adventure</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#historia" class="nav-link">Historia</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#genero" class="nav-link">Género</a></li>
+                <li><a href="#curiosidades" class="nav-link">Curiosidades</a></li>
+                <li><a href="#colaboraciones" class="nav-link">Colaboraciones</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn">🌀 CAMBIAR TEMA</button>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN PORTADA -->
+    <section id="inicio" class="hero" style="background-image: url('../jojos/00001_587d.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="title-main">LAS EXTRAORDINARIAS AVENTURAS DE JOJO</h1>
+            <p class="subtitle">Una saga de 40 años que redefinió el manga y anime para siempre</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('historia')">Descubre la Historia</button>
+                <button class="btn btn-secondary" onclick="scrollToSection('trama')">Conoce la Trama</button>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="geometric-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN INFORMACIÓN GENERAL -->
+    <section id="historia" class="section info-general">
+        <div class="container">
+            <h2 class="section-title">Información General</h2>
+            <div class="content-grid">
+                <div class="content-card card-glitch">
+                    <h3>📚 Sobre la Serie</h3>
+                    <p>
+                        JoJo's Bizarre Adventure es una serie de manga creada por <strong>Hirohiko Araki</strong> 
+                        desde 1987. Una saga familiar que ha redefinido el manga y anime con su estilo único.
+                    </p>
+                </div>
+                <div class="content-card card-neon">
+                    <h3>📊 Estadísticas</h3>
+                    <ul>
+                        <li>140+ volúmenes publicados</li>
+                        <li>9 partes completadas</li>
+                        <li>100M+ copias vendidas</li>
+                        <li>6 adaptaciones anime</li>
+                    </ul>
+                </div>
+                <div class="content-card card-retro">
+                    <h3>🌍 Distribución</h3>
+                    <p>
+                        Disponible en múltiples países con editoriales como Viz Media (EE.UU.), 
+                        Ivrea (Argentina/España) y Star Comics (Italia).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN GALERÍA VISUAL ANIMADA -->
+    <section id="galeria" class="section galeria-visual">
+        <div class="container">
+            <h2 class="section-title">Galería Visual de JoJo's</h2>
+            <div class="galeria-container">
+                <div class="scroll-container">
+                    <div class="infinite-scroll-track">
+                        <div class="infinite-scroll-content">
+                            <div class="gallery-item">
+                                <img src="../jojos/00001_587d.jpg" alt="JoJo's Imagen 1" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../jojos/1a9jojo.jpg" alt="JoJo's Imagen 2" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../jojos/Dio Brando.jpg" alt="JoJo's Imagen 3" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../jojos/DISC.jpg" alt="JoJo's Imagen 4" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../jojos/JoJo's Bizzare Adventure_ Diamond is Unbreakable.jpg" alt="JoJo's Imagen 5" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../jojos/jojos 1 temporada.png" alt="JoJo's Imagen 6" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../jojos/jojos verde.png" alt="JoJo's Imagen 7" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../jojos/Captura de pantalla 2026-04-14 132639.png" alt="JoJo's Imagen 8" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../jojos/descarga.jpg" alt="JoJo's Imagen 9" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../jojos/Naoko (@jjbafanaccount) on X.jpg" alt="JoJo's Imagen 10" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../jojos/Was supposed to be an anime post but that jojo art way too hard😮_💨.jpg" alt="JoJo's Imagen 11" loading="lazy">
+                            </div>
+                            <div class="gallery-item">
+                                <img src="../jojos/あこの on Twitter _ Jojo anime, Jojo stands, Jojo memes.jpg" alt="JoJo's Imagen 12" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN GÉNERO Y TEMÁTICA -->
+    <section id="genero" class="section genero-tematica">
+        <div class="container">
+            <h2 class="section-title">Género y Temática</h2>
+            <div class="genero-content">
+                <div class="genero-card">
+                    <h3>🎭 Géneros Combinados</h3>
+                    <p>
+                        La serie combina <strong>acción, aventura, sobrenatural, suspenso, comedia, tragedia y misterio</strong>, 
+                        destacando por sus personajes extravagantes y expresivos, así como por las referencias a la música occidental.
+                    </p>
+                </div>
+                <div class="genero-card">
+                    <h3>👻 Los Stands: Elemento Central</h3>
+                    <p>
+                        Uno de los elementos más conocidos son los <strong>Stands</strong>, manifestaciones de poder que poseen 
+                        los personajes y que se vuelven centrales en la narrativa, especialmente en la tercera parte, 
+                        <strong>Stardust Crusaders</strong>.
+                    </p>
+                </div>
+                <div class="genero-card">
+                    <h3>🎵 Música Occidental</h3>
+                    <p>
+                        Las referencias musicales son fundamentales en JoJo's, con personajes y Stands inspirados en 
+                        artistas como Queen, David Bowie, Prince y muchos otros íconos del rock, soul y funk.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DATOS CURIOSOS -->
+    <section id="curiosidades" class="section curiosidades">
+        <div class="container">
+            <h2 class="section-title">Datos Curiosos y Hechos Fascinantes</h2>
+            
+            <div class="curiosidades-content">
+                <div class="curiosidad-item">
+                    <h3>🎵 Inspiración Musical</h3>
+                    <p>
+                        Muchos personajes y Stands toman nombres de artistas como Queen, David Bowie, Prince y Ronnie James Dio. 
+                        El creador Hirohiko Araki es un gran fan de la música occidental.
+                    </p>
+                </div>
+
+                <div class="curiosidad-item">
+                    <h3>🕺 Estilo Visual Único</h3>
+                    <p>
+                        Las poses exageradas están inspiradas en revistas de moda y arte renacentista. 
+                        Araki se basó en marcas como Versace para crear ese estilo visual distintivo.
+                    </p>
+                </div>
+
+                <div class="curiosidad-item">
+                    <h3>🧬 Cada Parte es Diferente</h3>
+                    <p>
+                        Cada "parte" tiene protagonista, época y estilo completamente distintos. 
+                        Desde la era victoriana hasta aventuras modernas, cada historia es única.
+                    </p>
+                </div>
+            </div>
+                        Araki pensó en hacerlos invisibles, pero luego decidió darles <strong>diseños únicos</strong> para hacer 
+                        las batallas más interesantes y visuales. Esta decisión transformó completamente la serie.
+                    </p>
+                </div>
+
+                <div class="curiosidad-item">
+                    <h3>🎮 Influenció Muchos Videojuegos y Anime</h3>
+                    <p>
+                        Series y juegos como <strong>Persona 5</strong> o <strong>Street Fighter</strong> tienen elementos inspirados 
+                        en JoJo (especialmente habilidades tipo Stand). Su influencia en la cultura pop es innegable.
+                    </p>
+                </div>
+
+                <div class="curiosidad-item">
+                    <h3>🇮🇹 Italia es Clave en la Historia</h3>
+                    <p>
+                        La Parte 5, <strong>"Golden Wind"</strong>, ocurre en Italia, y Araki se inspiró profundamente en la cultura, 
+                        arquitectura y mafia italiana para crear una de las partes más memorables de la serie.
+                    </p>
+                </div>
+
+                <div class="curiosidad-item">
+                    <h3>🎨 El Estilo Artístico Evoluciona Muchísimo</h3>
+                    <p>
+                        Los personajes al inicio eran muy musculosos (tipo Hulk), pero con el tiempo se volvieron más estilizados y 
+                        fashion. Este cambio refleja la maduración del manga y la evolución del gusto de Araki.
+                    </p>
+                </div>
+            </div>
+
+            <div class="curiosidad-button">
+                <button class="btn btn-curiosity" id="random-curiosity" onclick="showRandomCuriosity()">
+                    🎲 Dato Curioso Aleatorio
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN COLABORACIONES -->
+    <section id="colaboraciones" class="section colaboraciones">
+        <div class="container">
+            <h2 class="section-title">Colaboraciones</h2>
+            
+            <div class="collab-intro">
+                <p>
+                    JoJo's ha colaborado con marcas de lujo como Gucci, Godiva y Jam Home Made, 
+                    demostrando que el manga puede alcanzar el nivel de las marcas internacionales más prestigiosas.
+                </p>
+            </div>
+
+            <div class="collaborations-grid">
+                <div class="collab-card">
+                    <div class="collab-header gucci">
+                        <h3>Gucci</h3>
+                    </div>
+                    <p>Colaboración de moda de lujo combinando estilo italiano con el universo bizarro de JoJo's.</p>
+                </div>
+
+                <div class="collab-card">
+                    <div class="collab-header godiva">
+                        <h3>Godiva</h3>
+                    </div>
+                    <p>Ediciones especiales de chocolates inspiradas en personajes y Stands de la serie.</p>
+                </div>
+
+                <div class="collab-card">
+                    <div class="collab-header jamhomemade">
+                        <h3>Jam Home Made</h3>
+                    </div>
+                    <p>Joyería contemporánea japonesa con diseños inspirados en JoJo's.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN EVOLUCIÓN ARTÍSTICA -->
+    <section class="section evolucion">
+        <div class="container">
+            <h2 class="section-title">Evolución Artística a Través de las Partes</h2>
+            
+            <div class="evolution-timeline">
+                <div class="timeline-item timeline-1">
+                    <div class="timeline-marker">1987</div>
+                    <h3>Parte 1: Phantom Blood</h3>
+                    <p>Los inicios: Jonathan Joestar vs Dio Brando. Estilo más tradicional del manga shonen, 
+                    personajes muy musculosos al estilo de los ochenta.</p>
+                </div>
+
+                <div class="timeline-item timeline-2">
+                    <div class="timeline-marker">1992</div>
+                    <h3>Partes 2-3: Mayor Refinamiento</h3>
+                    <p>José José y Jotaro Kujo introducen los Stands. El arte comienza a volverse más dinámico 
+                    y lleno de poses fashion inspiradas en la moda.</p>
+                </div>
+
+                <div class="timeline-item timeline-3">
+                    <div class="timeline-marker">1999+</div>
+                    <h3>Partes 4-6: Era Dorada</h3>
+                    <p>La serie alcanza su apogeo visual. Personajes más estilizados, paleta de colores más diversa, 
+                    y un nivel de detalle que influenció a toda una generación de mangakas.</p>
+                </div>
+
+                <div class="timeline-item timeline-4">
+                    <div class="timeline-marker">2005+</div>
+                    <h3>Parte 7 en Adelante: Nueva Era</h3>
+                    <p>Cambio a Ultra Jump. El manga se vuelve aún más experimental con formas y composiciones. 
+                    Araki demuestra que incluso después de décadas, puede innovar y sorprender.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN REFERENCIAS MUSICALES -->
+    <section class="section referencias">
+        <div class="container">
+            <h2 class="section-title">Referencias Musicales y Culturales</h2>
+            
+            <div class="referencias-content">
+                <p class="referencias-intro">
+                    Uno de los aspectos más fascinantes de JoJo's es su profunda conexión con la música y la cultura occidental. 
+                    Hirohiko Araki convierte sus pasiones en arte, creando un universo donde cada personaje lleva el nombre 
+                    de un artista o canción que lo define.
+                </p>
+
+                <div class="referencias-grid">
+                    <div class="ref-card">
+                        <h3>🎸 Rock Clásico</h3>
+                        <p>
+                            Queen, David Bowie, Jimi Hendrix... sus nombres y canciones viven en el universo de JoJo's, 
+                            desde Stands hasta personajes principales.
+                        </p>
+                    </div>
+
+                    <div class="ref-card">
+                        <h3>🎹 Soul y Funk</h3>
+                        <p>
+                            Prince, James Brown y otros maestros del funk han inspirado Stands impresionantes. 
+                            La energía y el ritmo de su música se refleja en el combate.
+                        </p>
+                    </div>
+
+                    <div class="ref-card">
+                        <h3>🎼 Composición Clásica</h3>
+                        <p>
+                            Beethoven, Mozart y la música clásica también tienen presencia en JoJo's, demostrando que 
+                            Araki respeta y ama toda forma de música artística.
+                        </p>
+                    </div>
+
+                    <div class="ref-card">
+                        <h3>🎤 Hip-Hop y R&B</h3>
+                        <p>
+                            Artistas modernos también han inspirado personajes. Este aspecto demuestra cómo la serie 
+                            evoluciona y se mantiene relevante con el tiempo.
+                        </p>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+</body>
+</html>
+                        El primer Jojo, el hombre noble que comenzó todo. Su sacrificio en la Parte 1 establece 
+                        el tono para toda la serie posterior.
+                    </p>
+                </div>
+
+                <div class="personaje-card">
+                    <div class="personaje-header">
+                        <h3>Giorno Giovanna</h3>
+                        <p class="personaje-stand">Stand: Gold Experience</p>
+                    </div>
+                    <p>
+                        El protagonista de Golden Wind, quien sueña con convertirse en un gangster respetable. 
+                        Su determinación silenciosa lo hace memorable.
+                    </p>
+                </div>
+
+                <div class="personaje-card">
+                    <div class="personaje-header">
+                        <h3>Jolyne Cujoh</h3>
+                        <p class="personaje-stand">Stand: Stone Free</p>
+                    </div>
+                    <p>
+                        La protagonista femenina de Stone Ocean que demuestra que las mujeres Jojo son tan fuertes 
+                        y carismáticas como sus predecesores masculinos.
+                    </p>
+                </div>
+
+                <div class="personaje-card">
+                    <div class="personaje-header">
+                        <h3>José José</h3>
+                        <p class="personaje-stand">Maestro de Hamon</p>
+                    </div>
+                    <p>
+                        El Jojo de la Parte 2 que revolucionó la serie introduciendo el Hamon, una técnica de fighting 
+                        que predecede a los Stands.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+    <!-- SECCIÓN FINAL - CALL TO ACTION -->
+    <section class="section final-cta">
+        <div class="container">
+            <h2 class="section-title">El Viaje Continúa</h2>
+            
+            <div class="cta-content">
+                <p>
+                    JoJo's Bizarre Adventure no es solo una serie de manga. Es un fenómeno cultural que ha perdurado 
+                    durante casi 40 años, inspirando a generaciones de artistas, diseñadores y creadores de contenido.
+                </p>
+                <p>
+                    Desde sus humildes comienzos en 1987 hasta su continuación en 2023, la serie ha demostrado una 
+                    capacidad única para reinventarse mientras mantiene su esencia distintiva.
+                </p>
+                <p>
+                    Si aún no has experimentado las extraordinarias aventuras de Jojo, está más que invitado a sumergirte 
+                    en este universo bizarro, colorido y absolutamente adictivo.
+                </p>
+
+                <div class="cta-buttons">
+                    <button class="btn btn-large btn-primary" onclick="scrollToTop()">
+                        ⬆️ Volver al Inicio
+                    </button>
+                    <button class="btn btn-large btn-secondary" onclick="scrollToSection('historia')">
+                        📖 Explorar Más
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>JoJo's Bizarre Adventure © Hirohiko Araki</p>
+            <p>Página Fan - Información Educativa</p>
+            <p>Fecha de creación: 15 de Abril, 2026</p>
+            <div class="footer-decorative">
+                <span>✦ BIZARRE ✦ ADVENTURE ✦ ETERNAL ✦</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
